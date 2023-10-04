@@ -1,0 +1,29 @@
+{
+  "name": "learnnodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tienne3/nodejs_1.git"
+  },
+  "keywords": [
+    "nodejs_1"
+  ],
+  "author": "tienvm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tienne3/nodejs_1/issues"
+  },
+  "homepage": "https://github.com/tienne3/nodejs_1#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
