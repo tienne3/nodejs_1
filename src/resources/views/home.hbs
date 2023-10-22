@@ -1,1 +1,11 @@
-<h1>Home Page</h1>
+<div>
+  <ul>
+    {{#each films}}
+      <a href="/films/{{this.name}}">
+        <li>{{this._id}} {{this.name}} --- {{this.description}}</li>
+      </a>
+    {{else}}
+      <p>no data</p>
+    {{/each}}
+  </ul>
+</div>
